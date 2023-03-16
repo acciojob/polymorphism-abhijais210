@@ -12,7 +12,7 @@ public class Main {
         double a = p.product(2.3,0.5);
         System.out.println(a);
     }
-    static class Product{
+    public static class Product{
         public int product(int x,int y){
             return x*y;
         }
